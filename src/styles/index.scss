@@ -2,20 +2,22 @@
 
 body {
   margin: 0;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
 .calendar {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: variables.$gap;
   padding: variables.$padding;
   max-width: variables.$calendar-width;
 
   &__day {
+    box-sizing: border-box;
+    height: variables.$day-size;
     display: flex;
     justify-content: center;
     align-items: center;
