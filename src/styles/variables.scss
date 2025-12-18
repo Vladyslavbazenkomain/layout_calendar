@@ -8,8 +8,8 @@ $border-color: black;
 $hover-color: #FFBFCB;
 $font-size: 30px;
 $hover-offset: -20px;
-$animation-duration: 0.5s;
 $calendar-width: ($columns * $day-size) + (($columns - 1) * $gap) + (2 * $padding);
+$animation-duration: 0.5s;
 $weekdays: (
   'sun': 0,
   'mon': 1,
