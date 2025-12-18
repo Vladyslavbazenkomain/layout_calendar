@@ -1,0 +1,21 @@
+$day-size: 100px;
+$border-width: 1px;
+$gap: 1px;
+$padding: 10px;
+$columns: 7;
+$day-color: #eee;
+$border-color: black;  
+$hover-color: #FFBFCB;
+$font-size: 30px;
+$hover-offset: 20px;
+$animation-duration: 0.5s;
+$calendar-width: ($columns * $day-size) + (($columns - 1) * $gap) + (2 * $padding);
+$weekdays: (
+  'sun': 0,
+  'mon': 1,
+  'tue': 2,
+  'wed': 3,
+  'thu': 4,
+  'fri': 5,
+  'sat': 6,
+);
