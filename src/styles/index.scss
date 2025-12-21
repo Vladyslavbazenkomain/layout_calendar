@@ -13,7 +13,7 @@ body {
   flex-wrap: wrap;
   gap: variables.$gap;
   padding: variables.$padding;
-  max-width: variables.$calendar-width;
+  width: variables.$calendar-width;
 
   &__day {
     box-sizing: border-box;
@@ -47,7 +47,7 @@ body {
 
 @each $day, $offset in variables.$weekdays {
   .calendar--start-day-#{$day} .calendar__day:first-child {
-    margin-left: $offset * (variables.$day-size + variables.$gap);
+    margin-left: $offset * (variables.$single-day-size + variables.$gap);
   }
 }
 
